@@ -49,10 +49,67 @@ header {
 
 .navbar .nav-links ul li {
     display: inline-block;
-    margin: 0 3rem;
+    margin: 0 2.5rem;
 }
 
 .nav-link-right {
     width: 100%;
-    margin-left: 10rem;
+    margin-left: 2.5rem;
 }
+
+.border {
+    width: 70%;
+    border-left: 2px solid #BFBFBF;
+    margin-left: 8rem;
+}
+
+.container {
+    margin-left: 15%;
+}
+
+.container p {
+    margin-top: 70px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -2.5px;
+}
+
+.container p span {
+    color: #852D86;
+}
+
+.container .button {
+    width: 416px;
+    height: 80px;
+
+    margin-top: 70px;
+
+    border-radius: 4px;
+    background: #852D86;
+}
+
+.container .button .button-text {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.container .form {
+    margin-top: 70px;
+}
+
+.container form input {
+    display: block;
+    width: 626px;
+    height: 60px;
+    background: rgba(43, 79, 136, 0.60);
+    font-size: 30px;
+    margin-top: 15px;
+
+    border-radius: 4px;
+}
+
