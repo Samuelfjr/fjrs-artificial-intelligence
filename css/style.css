@@ -43,13 +43,13 @@ header {
     font-size: 1.15rem;
 }
 
-.navbar .nav-links {
+.navbar .nav-links {  
     margin-left: 15%;
 }
 
 .navbar .nav-links ul li {
     display: inline-block;
-    margin: 0 2.5rem;
+    margin: 0 2.5rem; 
 }
 
 .nav-link-right {
@@ -114,7 +114,7 @@ header {
     border-radius: 4px;
 }
 
-.main-content {
+.container-content {
     display: flex;
     flex-direction: row;   
 }
@@ -132,3 +132,33 @@ header {
     text-transform: uppercase;
 }
 
+.main-content {
+    width: 100%;
+    height: 16.8rem;
+   
+    background-color: #852D86;
+    margin-top: 35.5rem;
+}
+
+main article {
+    width: 70%;
+    height: 100%;
+    text-align: center;    
+    margin: 0 auto;
+}
+
+main article p {
+    width: 100%;
+    height: 100%;
+    color: #EFEFEF;
+    font-size: 40px;
+    letter-spacing: -2px;  
+}
+
+main article p span {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
