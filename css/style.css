@@ -103,7 +103,7 @@ header {
     margin-top: 70px;
 }
 
-.container form input {
+.container form .form-field {
     display: block;
     width: 626px;
     height: 60px;
@@ -130,6 +130,10 @@ header {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.container-image-robot {
+    width: 100%;
 }
 
 .main-content {
