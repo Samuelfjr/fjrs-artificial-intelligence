@@ -14,8 +14,8 @@ body * {
 }
 
 header {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .logo {
@@ -137,7 +137,6 @@ header {
     height: 16.8rem;
    
     background-color: #852D86;
-    margin-top: 35.5rem;
 }
 
 main article {
