@@ -22,15 +22,6 @@ header {
     margin-left: 15%;
 }
 
-.division {
-    display: block;
-    margin: 0 auto;
-    
-    width: 70%;
-    height: 2px;
-    background-color: #BFBFBF;
-}
-
 .navbar {
     width: 100%;
     display: flex;
@@ -61,6 +52,15 @@ header {
     width: 70%;
     border-left: 2px solid #BFBFBF;
     margin-left: 8rem;
+}
+
+.division {
+    display: block;
+    margin: 0 auto;
+    
+    width: 70%;
+    height: 2px;
+    background-color: #BFBFBF;
 }
 
 .container {
