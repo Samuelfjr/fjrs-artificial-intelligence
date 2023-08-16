@@ -4,13 +4,24 @@
     box-sizing: 0;
 }
 
+:root {
+    --bg-url: url(/assets/bg-header.png);
+    --primary-text-color: #ffffff;
+    --secondary-color: #BFBFBF;
+    --tertiary-text-color: #EFEFEF;
+    --highlighted-color: #852D86;
+    --button-color: #EFC740;
+    --button-text-color: #433B0D;
+    --form-background-color: rgba(43, 79, 136, 0.60);
+}
+
 body {
-    background: url(/assets/bg-header.png) no-repeat top center/cover;
+    background: var(--bg-url) no-repeat top center/cover;
 }
 
 body * {
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
+    color: var(--primary-text-color);
 }
 
 header {
@@ -29,7 +40,7 @@ header {
 }
 
 .navbar a {
-    color: #BFBFBF;
+    color: var(--secondary-color);
     text-decoration: none;
     font-size: 1.15rem;
 }
@@ -50,7 +61,7 @@ header {
 
 .border {
     width: 70%;
-    border-left: 2px solid #BFBFBF;
+    border-left: 2px solid var(--secondary-color);
     margin-left: 8rem;
 }
 
@@ -60,7 +71,7 @@ header {
     
     width: 70%;
     height: 2px;
-    background-color: #BFBFBF;
+    background-color: var(--secondary-color);
 }
 
 .container {
@@ -76,7 +87,7 @@ header {
 }
 
 .container p span {
-    color: #852D86;
+    color: var(--highlighted-color);
 }
 
 .container .button {
@@ -86,7 +97,7 @@ header {
     margin-top: 70px;
 
     border-radius: 15px;
-    background: #852D86;
+    background: var(--highlighted-color);
 }
 
 .container .button .button-text {
@@ -107,7 +118,7 @@ header {
     display: block;
     width: 626px;
     height: 60px;
-    background: rgba(43, 79, 136, 0.60);
+    background: var(--form-background-color);
     font-size: 30px;
     margin-top: 15px;
 
@@ -123,10 +134,10 @@ header {
     width: 626px;
     height: 70px;
     border-radius: 15px;
-    background-color: #EFC740;
+    background-color: var(--button-color);
     margin-top: 20px;
 
-    color: #433B0D;
+    color: var(--button-text-color);
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
@@ -140,7 +151,7 @@ header {
     width: 100%;
     height: 16.8rem;
    
-    background-color: #852D86;
+    background-color: var(--highlighted-color);
 }
 
 .main-content article {
@@ -153,7 +164,7 @@ header {
 .main-content article p {
     width: 100%;
     height: 100%;
-    color: #EFEFEF;
+    color: var(--tertiary-text-color);
     font-size: 40px;
     letter-spacing: -2px;  
     display: flex;
