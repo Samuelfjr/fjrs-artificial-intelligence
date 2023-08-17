@@ -181,3 +181,38 @@ header {
     font-weight: 700;
     letter-spacing: -2px;
 } */
+
+.tittle {
+    width: 100%;
+    color: var(--primary-text-color);
+    text-align: center;
+    font-size: 50px;
+
+    margin: 8.75rem 0 2.5rem;
+}
+
+.text-section {
+    margin-left: 2.5rem;
+    margin-top: 7.8rem;
+}
+
+.image-man-ia {
+    width: 39.125rem;
+    height: 45.625rem;
+}
+
+.caption-section {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    margin-bottom: 2rem;
+}
+
+.title-section {
+    color: var(--primary-text-color);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+}
