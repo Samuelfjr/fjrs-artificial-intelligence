@@ -194,6 +194,7 @@ header {
 .text-section {
     margin-left: 2.5rem;
     margin-top: 7.8rem;
+    
 }
 
 .image-man-ia {
@@ -211,8 +212,26 @@ header {
 
 .title-section {
     color: var(--primary-text-color);
-    text-align: center;
     font-size: 24px;
     font-weight: 700;
     letter-spacing: -1.2px;
+}
+
+.paragraph-container {
+    width: 70%;
+    display: flex;
+
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 32px;
+}
+
+.paragraph-container img {
+    margin-top: 3.75rem;
+}
+
+.paragraph-container .paragraph {
+    color: var(--tertiary-text-color);
+    font-size: 18px;
+    letter-spacing: -0.9px;
+    padding-left: 16px; 
 }
