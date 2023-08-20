@@ -244,3 +244,28 @@ header {
     display: flex;
     align-items: center;
 }
+
+.section-register {
+    width: 83%;
+    height: 270px;
+    background: var(--form-background-color);
+    margin-top: 80px;
+}
+
+.container-section-register {
+    padding: 48px 0 48px 40px;
+}
+
+.title-register {
+    width: 32%;
+    color: var(--primary-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+}
+
+#button-register-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
