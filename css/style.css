@@ -46,16 +46,18 @@ header {
 }
 
 .navbar .nav-links {  
-    margin-left: 15%;
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.navbar .nav-links ul li {
-    display: inline-block;
-    margin: 0 2.5rem; 
+.navbar .nav-links ul {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
 }
 
 .nav-link-right {
-    width: 100%;
     margin-left: 2.5rem;
 }
 
@@ -76,6 +78,7 @@ header {
 
 .container {
     margin-left: 15%;
+    margin-top: 140px;
 }
 
 .container p {
