@@ -502,6 +502,7 @@ svg {
     border-radius: 8px;
     background: #202024;
     margin-top: 60px;
+    margin-bottom: 140px;
 }
 
 .text-container-wpp {
@@ -536,4 +537,36 @@ svg {
     color: #202024;
     text-align: center;
     font-size: 16px;
+}
+
+footer {
+    width: 100%;
+    background: #202024;
+}
+
+.container-footer {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+}
+
+.container-footer h2 {
+    color: var(--primary-text-color);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.container-footer .box-svg {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: #121214;
+    margin-top: 75px;
+}
+
+.container-footer .box-svg svg {
+    padding: 8px;
 }
