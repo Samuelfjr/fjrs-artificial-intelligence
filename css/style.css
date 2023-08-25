@@ -104,10 +104,9 @@ header {
 
 .container p {
     margin-top: 70px;
-    font-size: 50px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    letter-spacing: -2.5px;
 }
 
 .container p span {
@@ -131,6 +130,7 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -179,7 +179,7 @@ header {
 }
 
 .main-content article {
-    width: 70%;
+    width: 40%;
     height: 100%;
     text-align: center;    
     margin: 0 auto;
@@ -189,8 +189,8 @@ header {
     width: 100%;
     height: 100%;
     color: var(--tertiary-text-color);
-    font-size: 40px;
-    letter-spacing: -2px;  
+    font-size: 30px;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,8 +210,9 @@ header {
     width: 100%;
     color: var(--primary-text-color);
     text-align: center;
-    font-size: 50px;
-
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
     margin: 0 0 2.5rem;
 }
 
@@ -228,17 +229,16 @@ header {
 
 .caption-section {
     color: var(--primary-text-color);
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: -0.8px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 3.6px;
     margin-bottom: 2rem;
 }
 
 .title-section {
     color: var(--primary-text-color);
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: -1.2px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .paragraph-container {
@@ -262,7 +262,7 @@ header {
     height: 100%;
     color: var(--tertiary-text-color);
     font-size: 18px;
-    letter-spacing: -0.9px;
+    font-weight: 400;
     padding-left: 16px; 
     margin: auto;
     display: flex;
@@ -284,14 +284,19 @@ header {
     width: 100%;
     margin: 0 auto;    
     color: var(--primary-text-color);
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: -1.8px;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 #event-schedule {
     width: 50%;
     text-transform: uppercase;
+    margin: 20px auto;
+    color: var(--primary-text-color);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 #button-register-section {
@@ -303,6 +308,14 @@ header {
 .container-title {
     width: 100%;
     text-align: center;
+}
+
+.container-title h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 3.6px;
 }
 
 .container-timeline {
@@ -324,7 +337,7 @@ header {
 .container-timeline .timeline h3 {
     color: var(--primary-text-color);
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
 
     padding: 24px;
 }
@@ -372,7 +385,7 @@ header {
 }
 
 .text-about {
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
     color: var(--primary-text-color);
     text-align: center;
@@ -402,11 +415,13 @@ header {
     margin-bottom: 10px;
     color: var(--primary-text-color);
     font-size: 24px;
+    font-weight: 500;
 }
 
 .part-section-about article h3 {
     color: var(--primary-text-color);
     font-size: 18px;   
+    font-weight: 500;
 }
 
 #container-faq {
@@ -433,13 +448,14 @@ header {
 
 .faq-left h2 {
     color: #852D86;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 500;
 }
 
 .faq-left h1 {
     width: 100%;
     color: var(--primary-text-color);
-    font-size: 36px;
+    font-size: 40px;
 }
 
 #column-faq-rigth {
@@ -472,7 +488,8 @@ header {
 .question h3 {
     display: flex;
     color: var(--primary-text-color);
-    font-size: 24px;   
+    font-size: 24px;
+    font-weight: 600;   
 
     flex-direction: column;
 }
@@ -574,7 +591,7 @@ footer {
 .container-footer h2 {
     color: var(--primary-text-color);
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     margin: auto;
 }
