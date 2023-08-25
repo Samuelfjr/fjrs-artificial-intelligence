@@ -43,6 +43,26 @@ header {
     color: var(--secondary-color);
     text-decoration: none;
     font-size: 1.15rem;
+    position: relative;
+}
+
+.nav-links a:after {
+    content: "";
+    position: absolute;
+    background-color: var(--highlighted-color);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+
+.nav-links a:hover {
+    color: var(--primary-text-color);
+}
+
+.nav-links a:hover:after {
+    width: 100%;
 }
 
 .navbar .nav-links {  
