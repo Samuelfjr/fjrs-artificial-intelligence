@@ -373,7 +373,7 @@ header {
 }
 
 .container .about h1 {
-    width: 100%;
+    width: 80%;
     color: var(--primary-text-color);
     text-align: center;
     font-size: 36px;
@@ -384,13 +384,24 @@ header {
     background: var(--form-background-color);
 }
 
-.text-about {
-    width: 55%;
+.box-about {
+    width: 76%;
     margin: 0 auto;
-    color: var(--primary-text-color);
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5%;
+}
+
+.text-about {
+    width: 100%;
+    margin: 0 auto;
+    color: var(--secondary-color);
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 500;   
+    background: rgba(26, 50, 98, 0.40);
+    padding: 34px;
+    border: 1px solid var(--tertiary-text-color);
 }
 
 .section-about {
