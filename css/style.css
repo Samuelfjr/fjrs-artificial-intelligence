@@ -206,14 +206,29 @@ header {
     letter-spacing: -2px;
 } */
 
-.tittle {
+.title {
     width: 100%;
-    color: var(--primary-text-color);
     text-align: center;
     font-size: 48px;
     font-weight: 700;
     letter-spacing: 2.4px;
     margin: 0 0 2.5rem;
+
+    background: linear-gradient(45deg, #F280DB, #F796E4, #F7BDEB, #F796E4, #FADCF4);
+    background-size: 300% 100%;
+    animation: gradient 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradient {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
 }
 
 .text-section {
@@ -228,12 +243,14 @@ header {
 }
 
 .caption-section {
-    color: var(--primary-text-color);
+    color: #F796E4;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3.6px;
     margin-bottom: 2rem;
+
 }
+
 
 .title-section {
     color: var(--primary-text-color);
@@ -311,7 +328,7 @@ header {
 }
 
 .container-title h3 {
-    color: #FFF;
+    color: #F796E4;
     text-align: center;
     font-size: 24px;
     font-weight: 500;
@@ -374,7 +391,6 @@ header {
 
 .container .about h1 {
     width: 80%;
-    color: var(--primary-text-color);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -382,6 +398,13 @@ header {
     padding: 15px;
     border-radius: 10px;
     background: var(--form-background-color);
+
+    background: linear-gradient(45deg, #F280DB, #F796E4, #F7BDEB, #F796E4, #FADCF4);
+    background-size: 300% 100%;
+    animation: gradient 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .box-about {
@@ -395,7 +418,7 @@ header {
 .text-about {
     width: 100%;
     margin: 0 auto;
-    color: var(--secondary-color);
+    color: #C4C4CC;
     text-align: center;
     font-size: 22px;
     font-weight: 500;   
@@ -430,7 +453,7 @@ header {
 }
 
 .part-section-about article h3 {
-    color: var(--primary-text-color);
+    color: #C4C4CC;
     font-size: 18px;   
     font-weight: 500;
 }
@@ -515,6 +538,7 @@ header {
     padding-top: 1rem;
     line-height: 1.6;
     font-size: 1.4rem;
+    color: #C4C4CC;
 }
 
 .faq-right.active .answer {
