@@ -659,29 +659,35 @@ footer {
   padding: 8px;
 }
 
-[data-anime] {
+.animate {
   opacity: 0;
-  transition: .3s;
+  filter: blur(3px);
+  transition: 1s;
 }
 
-[data-anime="left"] {
-  transform: translate3d(-50px, 0, 0);
+.animate.from-bottom {
+  transform: translateY(100%);
 }
 
-[data-anime="right"] {
-  transform: translate3d(50px, 0, 0);
+.animate.from-top {
+  transform: translateY(-150%);
 }
 
-[data-anime="bottom"] {
-  transform: translate3d(0, -50px, 0);
+.animate.from-left {
+  transform: translateX(-100%);
 }
 
-[data-anime="top"] {
-  transform: translate3d(0, 50px, 0);
+.animate.from-right {
+  transform: translateX(100%);
 }
 
-[data-anime].animate {
+.animate.image-from-top {
+  transform: translateY(-40%);
+}
+
+.animate.show {
+  transform: translate(0);
+  filter: blur(0);
   opacity: 1;
-  transform: translate3d(0px, 0px, 0px);
 }
 
