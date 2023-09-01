@@ -548,7 +548,7 @@ header {
 .answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1s ease;
+  transition: max-height 0.5s ease;
 }
 
 .answer p {
@@ -560,7 +560,7 @@ header {
 
 .faq-right.active .answer {
   max-height: 300px;
-  animation: fade 1s ease-in-out;
+  animation: fade 0.5s ease-in-out;
 }
 
 .faq-right.active svg {

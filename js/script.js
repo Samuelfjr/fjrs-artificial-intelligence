@@ -1,3 +1,11 @@
+const faqs = document.querySelectorAll(".faq-right");
+
+faqs.forEach(faq => {
+    faq.addEventListener("click", () => {
+        faq.classList.toggle("active");
+    })
+})
+
 const intersectObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         console.log(entry);
