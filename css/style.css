@@ -670,7 +670,7 @@ footer {
 }
 
 .animate.from-top {
-  transform: translateY(-150%);
+  transform: translateY(-100%);
 }
 
 .animate.from-left {
