@@ -15,16 +15,16 @@
 
 <body>
   <header>
-    <nav class="navbar">
+    <nav class="navbar" id="home">
       <a href="#" class="logo">
         <img src="./assets/fjrs-ai-logo.png" alt="fjr's ai logo" />
       </a>
       <div class="nav-links">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#event">Evento</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
           <span class="border"></span>
           <li><a href="#" class="nav-link-right">Iniciar</a></li>
         </ul>
@@ -74,7 +74,7 @@
     </div>
 
     <section class="container">
-      <h1 class="title animate from-bottom">CONSTRUA SEU FUTURO COM IA</h1>
+      <h1 class="title animate from-bottom" id="event">CONSTRUA SEU FUTURO COM IA</h1>
 
       <aside class="container-content">
         <img class="image-man-ia animate from-left" src="/assets/man-ia.png" alt="" />
@@ -171,7 +171,7 @@
 
     <section class="container">
       <div class="about animate from-bottom">
-        <h1>SOBRE A FJR's AI</h1>
+        <h1 id="about">SOBRE A FJR's AI</h1>
       </div>
 
       <div class="box-about">
@@ -335,9 +335,11 @@
               <h3 id="subtitle-zap">Envie uma mensagem, estamos à disposição!</h3>
             </div>
 
-            <div class="call-zap">
-              <h1>CHAMAR NO WHATSAPP</h1>
-            </div>
+            <a id="box-zap" href="https://wa.me/44984235639" target="_blank">
+              <div class="call-zap">
+                <h1>CHAMAR NO WHATSAPP</h1>
+              </div>
+            </a>
 
           </aside>
 
@@ -353,14 +355,16 @@
     <div class="container-footer">
       <img src="./assets/fjrs-ai-logo.png" alt="">
 
-      <h2>Desenvolvido com 🤍 por Samuelfjr</h2>
+      <h2 id="contact">Desenvolvido com 🤍 por Samuelfjr</h2>
 
       <div class="box-svg">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <path d="M7.075 15.375L6 14.3L12 8.30005L18 14.275L16.925 15.35L12 10.425L7.075 15.375Z" fill="white" />
-        </svg>
-      </div>
+        <a href="#home">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M7.075 15.375L6 14.3L12 8.30005L18 14.275L16.925 15.35L12 10.425L7.075 15.375Z" fill="white" />
+          </svg>
+        </a>
 
+      </div>
     </div>
   </footer>
 
