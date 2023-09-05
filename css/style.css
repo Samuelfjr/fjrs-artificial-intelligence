@@ -484,6 +484,15 @@ header {
   font-weight: 500;
 }
 
+#image-maps {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+
+  width: 100%;
+
+}
+
 #container-faq {
   display: flex;
   flex-direction: column;
