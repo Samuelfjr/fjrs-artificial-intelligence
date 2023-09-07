@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 :target {
@@ -33,24 +34,27 @@ body * {
 }
 
 header {
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  
+  margin: 0 auto;
+  border-bottom: 2px solid var(--secondary-color);
 }
-
+                                                                                                                                                  
 .logo {
-  margin-left: 15%;
+  width: 80%;
 }
 
 .navbar {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .navbar a {
   color: var(--secondary-color);
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 1.8rem;
   position: relative;
 }
 
@@ -86,22 +90,13 @@ header {
 }
 
 .nav-link-right {
-  margin-left: 2.5rem;
+  margin-left: 2.5rem;  
 }
 
 .border {
   width: 70%;
   border-left: 2px solid var(--secondary-color);
   margin-left: 8rem;
-}
-
-.division {
-  display: block;
-  margin: 0 auto;
-
-  width: 70%;
-  height: 2px;
-  background-color: var(--secondary-color);
 }
 
 .container {
@@ -112,7 +107,7 @@ header {
 
 .container p {
   margin-top: 70px;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-style: normal;
   font-weight: 700;
 }
@@ -137,7 +132,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -151,7 +146,7 @@ header {
   width: 626px;
   height: 60px;
   background: var(--form-background-color);
-  font-size: 30px;
+  font-size: 3rem;
   margin-top: 15px;
 
   border-radius: 5px;
@@ -170,7 +165,7 @@ header {
   margin-top: 20px;
 
   color: var(--button-text-color);
-  font-size: 30px;
+  font-size: 3.0rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -187,7 +182,8 @@ header {
 }
 
 .main-content article {
-  width: 40%;
+  width: 90%;
+  max-width: 980px;
   height: 100%;
   text-align: center;
   margin: 0 auto;
@@ -197,7 +193,7 @@ header {
   width: 100%;
   height: 100%;
   color: var(--tertiary-text-color);
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -215,7 +211,7 @@ header {
 .title {
   width: 100%;
   text-align: center;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 700;
   letter-spacing: 2.4px;
   margin: 0 0 2.5rem;
@@ -256,7 +252,7 @@ header {
 
 .caption-section {
   color: #f796e4;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
   letter-spacing: 3.6px;
   margin-bottom: 2rem;
@@ -264,7 +260,7 @@ header {
 
 .title-section {
   color: var(--primary-text-color);
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 600;
 }
 
@@ -288,7 +284,7 @@ header {
   width: 100%;
   height: 100%;
   color: var(--tertiary-text-color);
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
   padding-left: 16px;
   margin: auto;
@@ -311,7 +307,7 @@ header {
   width: 100%;
   margin: 0 auto;
   color: var(--primary-text-color);
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 600;
   letter-spacing: 2px;
 }
@@ -322,7 +318,7 @@ header {
   margin: 20px auto;
   color: var(--primary-text-color);
   text-align: center;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 600;
 }
 
@@ -340,7 +336,7 @@ header {
 .container-title h3 {
   color: #f796e4;
   text-align: center;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
   letter-spacing: 3.6px;
 }
@@ -362,7 +358,7 @@ header {
 
 .container-timeline .timeline h3 {
   color: var(--primary-text-color);
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
 
   padding: 24px;
@@ -385,7 +381,7 @@ header {
 .container-opacity h4 {
   color: var(--primary-text-color);
   text-align: center;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
 
   padding: 15px;
@@ -400,7 +396,7 @@ header {
 .container .about h1 {
   width: 80%;
   text-align: center;
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 700;
   letter-spacing: -1.8px;
   padding: 15px;
@@ -435,7 +431,7 @@ header {
   margin: 0 auto;
   color: #c4c4cc;
   text-align: center;
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 500;
   background: rgba(26, 50, 98, 0.4);
   padding: 34px;
@@ -474,13 +470,13 @@ header {
 .part-section-about h2 {
   margin-bottom: 10px;
   color: var(--primary-text-color);
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
 }
 
 .part-section-about article h3 {
   color: #c4c4cc;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
@@ -517,14 +513,14 @@ header {
 
 .faq-left h2 {
   color: #852d86;
-  font-size: 26px;
+  font-size: 2.6rem;
   font-weight: 500;
 }
 
 .faq-left h1 {
   width: 100%;
   color: var(--primary-text-color);
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 #column-faq-rigth {
@@ -556,7 +552,7 @@ header {
 .question h3 {
   display: flex;
   color: var(--primary-text-color);
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
 
   flex-direction: column;
@@ -618,13 +614,13 @@ svg {
 
 #title-zap {
   color: var(--primary-text-color);
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
 #subtitle-zap {
   color: var(--secondary-color);
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
@@ -645,7 +641,7 @@ svg {
   padding-top: 15px;
   color: #202024;
   text-align: center;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 footer {
@@ -660,10 +656,14 @@ footer {
   margin-left: 15%;
 }
 
+.container-footer .logo {
+  width: 80%;
+}
+
 .container-footer h2 {
   color: var(--primary-text-color);
   text-align: center;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
   margin: auto;
 }
@@ -710,5 +710,12 @@ footer {
   transform: translate(0);
   filter: blur(0);
   opacity: 1;
+}
+
+                
+@media(max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
 }
 
