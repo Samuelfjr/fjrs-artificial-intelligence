@@ -21,7 +21,7 @@ html {
 }
 
 :target {
-  scroll-margin-top: .8em;
+  scroll-margin-top: .8rem;
 }
 
 body {
@@ -105,7 +105,12 @@ header {
   margin-top: 140px;
 }
 
-.container p {
+b {
+  color: var(--highlighted-color);
+}
+
+.container .title-top {
+  width: 80%;
   margin-top: 70px;
   font-size: 4.8rem;
   font-style: normal;
@@ -117,8 +122,8 @@ header {
 }
 
 .container .button {
-  width: 416px;
-  height: 80px;
+  width: 41.6rem;
+  height: 8rem;
 
   margin-top: 70px;
 
@@ -127,7 +132,6 @@ header {
 }
 
 .container .button .button-text {
-  width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -138,13 +142,14 @@ header {
 }
 
 .container .form {
+  width: 90%;
   margin-top: 70px;
 }
 
 .container form .form-field {
   display: block;
-  width: 626px;
-  height: 60px;
+  width: 62.6rem;
+  height: 6rem;
   background: var(--form-background-color);
   font-size: 3rem;
   margin-top: 15px;
@@ -158,20 +163,26 @@ header {
 }
 
 .button-register {
-  width: 626px;
-  height: 70px;
+  width: 62.6rem;
+  height: 7rem;
   border-radius: 15px;
   background-color: var(--button-color);
   margin-top: 20px;
 
   color: var(--button-text-color);
-  font-size: 3.0rem;
+  font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .container-image-robot {
-  width: 100%;
+  background-color: #04d361;
+  display: flex;
+}
+
+.image-robot {
+  width: 66.5rem;
+  height: 51.4rem; 
 }
 
 .main-content {
@@ -293,7 +304,6 @@ header {
 }
 
 .section-register {
-  width: 83%;
   height: 270px;
   background: var(--form-background-color);
   margin-top: 80px;
@@ -313,7 +323,7 @@ header {
 }
 
 #event-schedule {
-  width: 50%;
+  width: 70%;
   text-transform: uppercase;
   margin: 20px auto;
   color: var(--primary-text-color);
@@ -342,12 +352,15 @@ header {
 }
 
 .container-timeline {
-  width: 100%;
+  width: 85%;
   display: flex;
   justify-content: center;
+
   flex-direction: row;
-  margin-top: 50px;
   gap: 2.5rem;
+
+  margin: 5rem auto;
+
 }
 
 .timeline {
@@ -712,10 +725,38 @@ footer {
   opacity: 1;
 }
 
-                
-@media(max-width: 768px) {
+@media(max-width: 1440px) {
+
+  .container form .form-field,
+  .button-register {
+    width: 52.6rem;
+  }
+
+  .image-robot {
+    width: 46.5rem;
+    height: 40.4rem;  
+  }
+
+}
+         
+@media(max-width: 1055px) {
   html {
     font-size: 50%;
   }
+
+  #container-schedule {
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
+              
+@media(max-width: 720px) {
+  html {
+    font-size: 40%;
+  }
+
+
+}
+
 
