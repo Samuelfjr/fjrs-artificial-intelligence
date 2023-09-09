@@ -26,11 +26,13 @@ html {
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+
 }
 
 body * {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
+
 }
 
 header {
@@ -117,10 +119,6 @@ b {
   font-weight: 700;
 }
 
-.container p span {
-  color: var(--highlighted-color);
-}
-
 .container .button {
   width: 41.6rem;
   height: 8rem;
@@ -141,14 +139,19 @@ b {
   text-transform: uppercase;
 }
 
+#container-schedule {
+  width: 100%;
+}
+
 .container .form {
-  width: 90%;
+  width: 100%;
   margin-top: 70px;
 }
 
 .container form .form-field {
   display: block;
-  width: 62.6rem;
+  /* width: 62.6rem; */
+  width: 100%;
   height: 6rem;
   background: var(--form-background-color);
   font-size: 3rem;
@@ -163,7 +166,8 @@ b {
 }
 
 .button-register {
-  width: 62.6rem;
+  /* width: 62.6rem; */
+  width: 100%;
   height: 7rem;
   border-radius: 15px;
   background-color: var(--button-color);
@@ -176,13 +180,17 @@ b {
 }
 
 .container-image-robot {
-  background-color: #04d361;
   display: flex;
+  justify-content: flex-end;
+  width: 50%;
+
+  /* background-color: #04d361; */
 }
 
 .image-robot {
-  width: 66.5rem;
-  height: 51.4rem; 
+  /* width: 66.5rem;
+  height: 51.4rem;  */
+
 }
 
 .main-content {
@@ -253,7 +261,7 @@ b {
 
 .text-section {
   margin-left: 2.5rem;
-  margin-top: 7.8rem;
+  margin-top: -0.5rem;
 }
 
 .image-man-ia {
@@ -275,14 +283,19 @@ b {
   font-weight: 600;
 }
 
+#first-paragraph-container {
+  margin-top: 2rem;
+} 
+
 .paragraph-container {
-  width: 90%;
+  width: 100%;
   height: 5rem;
   display: flex;
   flex-direction: row;
 
   border-bottom: 2px solid var(--secondary-color);
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .paragraph-container img {
@@ -304,7 +317,7 @@ b {
 }
 
 .section-register {
-  height: 270px;
+  height: 27rem;
   background: var(--form-background-color);
   margin-top: 80px;
 }
@@ -320,6 +333,10 @@ b {
   font-size: 4rem;
   font-weight: 600;
   letter-spacing: 2px;
+}
+
+#button-register-event {
+  width: 50%;
 }
 
 #event-schedule {
@@ -352,7 +369,7 @@ b {
 }
 
 .container-timeline {
-  width: 85%;
+  width: 100%;
   display: flex;
   justify-content: center;
 
@@ -360,12 +377,11 @@ b {
   gap: 2.5rem;
 
   margin: 5rem auto;
-
 }
 
 .timeline {
-  width: 400px;
-  height: 450px;
+  width: 40rem; 
+  height: 45rem;
   background: #1a3262;
 }
 
@@ -384,11 +400,12 @@ b {
 }
 
 .container-opacity {
+  width: 30rem;
   display: flex;  
-  width: 18rem;
-  background: var(--form-background-color);
-  margin: 30px auto;
+  margin: 0 auto;
   padding: 0 8px;
+  background: var(--form-background-color);
+
 }
 
 .container-opacity h4 {
@@ -396,18 +413,20 @@ b {
   text-align: center;
   font-size: 1.8rem;
   font-weight: 400;
-
   padding: 15px;
 }
 
 .container .about {
-  width: 326px;
-  height: 92px;
+  width: 80%;
+  height: 9.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
 }
 
 .container .about h1 {
-  width: 80%;
+  width: 70%;
   text-align: center;
   font-size: 3.6rem;
   font-weight: 700;
@@ -726,32 +745,94 @@ footer {
 }
 
 @media(max-width: 1440px) {
+  
+  header {
+    width: 80%;
+  }
 
   .container form .form-field,
   .button-register {
-    width: 52.6rem;
-  }
-
-  .image-robot {
-    width: 46.5rem;
-    height: 40.4rem;  
-  }
-
-}
-         
-@media(max-width: 1055px) {
-  html {
-    font-size: 50%;
+    width: 41.2rem;
   }
 
   #container-schedule {
     display: flex;
-    flex-direction: column;
+    width: 60%;
   }
-  
+
+  .container .form {
+    width: 90%;
+  }
+
+  .container-image-robot {
+    width: 100%;
+  }
+
+  .image-robot {
+    width: 62.6rem;
+  } 
+
+  main {
+    width: 100%;
+  }
+
+  .container {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .container-footer {
+    margin-left: 10%;
+  }
+
+  .box-faq {
+    width: 80%;
+  }
+
+  .timeline {
+    width: 30rem;   
+  }
+
+  .timeline img {
+      width: 100%;
+  }
 }
+         
+@media(max-width: 1135px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+ 
+  @media(max-width: 955px) {
+
+    /* #container-schedule {
+      width: 62.6rem; 
+      flex-direction: column;
+    } */
+    
+    #event-container-content {
+      flex-direction: column-reverse;
+    }
+
+    .text-section {
+      margin-top: 3rem;
+    }
+    
+    .caption-section,
+    .title-section {
+      text-align: center;
+    }
+
+    .image-man-ia {
+      margin: 0 auto;
+      margin-top: 6rem;
+    }
+  } 
+
               
-@media(max-width: 720px) {
+@media(max-width: 768px) {
   html {
     font-size: 40%;
   }
