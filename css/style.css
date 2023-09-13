@@ -904,9 +904,83 @@ footer {
     font-size: 40%;
   }
 
+
+
   .navbar .nav-links ul {
     display: none;
   }
+
+  .one, 
+  .two,
+  .three {
+    background-color: var(--primary-text-color);
+    height: 3px;
+    width: 100%;
+    margin: 6px auto;
+    transition-duration: 0.3s;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+  }
+
+  .nav-links.on {
+
+    
+  }
+
+  .nav-links.on ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .nav-links.on ul .border {
+    width: 100%;
+    border-top: 2px solid var(--secondary-color);
+    margin-left: 0;
+  }
+
+  .nav-links.on ul .nav-link-right {
+    margin-left: 0;  
+  }
+  
+
+  .nav-links.on ul li {
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  /* .nav-links.on ul li {
+    display: block;
+    padding: 1rem 2rem;
+  }
+
+  .nav-links.on ul li .border {
+    width: 70%;
+    border-top: 2px solid #04d361;
+    
+  } */
+
+
+  .nav-links.on .menu-toggle {
+    margin: auto;
+  }
+
+  .nav-links.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .nav-links.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .nav-links.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -6px);
+  }
+
 
 
   .box-faq {
