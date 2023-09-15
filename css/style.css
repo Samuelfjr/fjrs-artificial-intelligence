@@ -927,40 +927,44 @@ footer {
 
 
   .nav-links.on {
-      /* position: absolute;
+      position: absolute;
       top: 0;
       left: 0;
 
       width: 100vw;
-      height: 55vh;
+      height: 100vh;
 
       background-color: #121214;
 
       z-index: 10;
-
+ 
       display: flex;
       justify-content: center;
-      align-items: center; */
+      align-items: center; 
     } 
+
+  .nav-links.on nav {
+    display: block;
+  }
 
   .nav-links.on .menu-toggle {
     position: absolute;
+    right: 6rem;
     top: 10rem; 
   }
 
-
-   .nav-links.on ul .border {
-    width: 40%;
+   .nav-links.on nav ul .border {
+    width: 100%;
     border-top: 2px solid var(--secondary-color);
     margin-left: 0;
     margin: auto; 
+
+    display: none;
   }
 
-  .nav-links.on ul .nav-link-right {
-    margin-left: 0;
+  .nav-links.on nav ul .nav-link-right {
+    margin-left: 0; 
   } 
-
-
 
   .nav-links.on .menu-toggle .one {
     transform: rotate(45deg) translate(10px, 7px);
@@ -974,26 +978,18 @@ footer {
     transform: rotate(-45deg) translate(8px, -6px);
   }
 
-  .nav-links.on ul {
-    display: flex;
-    flex-direction: column;
+
+  .nav-links.on nav ul {
     text-align: center;
-    padding-bottom: 1rem;
-
-    
-  } 
-
-  .nav-links.on ul li {
     display: block;
-    padding-top: 1.2rem;
   }
 
-  /* .nav-links.on ul a {
+ .nav-links.on ul a {
     transition-duration: 0.5s;
     font-size: 3rem;
     line-height: 8rem;
-    display: block;
-  } */
+
+  } 
 
   
   .box-faq {
