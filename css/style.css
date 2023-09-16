@@ -1009,4 +1009,22 @@ footer {
   }
 }
 
+@media(max-width: 560px) {
+  .container-image-robot {
+    width: 100%;
+  }
+
+  .image-robot {
+    width: 58.6rem;
+  } 
+
+  .main-content {
+    height: 100%;
+    width: 100%;
+  }
+
+  #button-register-event {
+    width: 80%;
+  }
+}
 
