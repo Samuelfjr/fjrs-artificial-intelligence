@@ -206,6 +206,7 @@ b {
 
 .main-content {
   height: 16.8rem;
+  height: auto;
   width: 100%;
   /* max-width: 1625px; */
 
@@ -229,6 +230,8 @@ b {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  padding: 24px;
 }
 
 /* .main-content article p span {
@@ -767,10 +770,9 @@ footer {
   }
 
   .main-content {
-    height: 20.8rem;
+    height: auto;
   }
 
-  
   .main-content article {
     width: 80%;
   }
@@ -894,6 +896,17 @@ footer {
     width: 90%;
     margin: auto;
   }
+
+  .container-footer .box-svg {
+    width: 35px;
+    height: 35px;
+    margin-top: 65px;
+  }
+  
+  .container-footer .box-svg svg {
+    padding: 6px;
+  }
+  
 }
      
 
@@ -991,6 +1004,21 @@ footer {
 
   } 
 
+  .main-content article p {
+    padding: 12px;
+  }
+
+  
+
+  .box-about {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5%;
+  }
+  
+
   
   .box-faq {
     flex-direction: column;
@@ -1019,12 +1047,80 @@ footer {
   } 
 
   .main-content {
-    height: 100%;
-    width: 100%;
   }
 
   #button-register-event {
     width: 80%;
   }
+
+  .container-timeline {
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .timeline {
+    width: 40rem; 
+    height: 45rem;
+  }
+
+  .container-opacity {
+    width: 35rem;  
+  }
+
+
+  .box-about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    gap: 2.5rem;
+  }
+
+
+  .text-about {
+    width: 80%;
+    padding: 16px;
+  }
+
+  .section-about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 2.5rem;
+  }
+ 
+  .part-section-about {
+    width: 60%;
+    height: auto;
+    padding: 18px;
+
+    margin: 0 auto;
+  }
+
+  .container-footer .box-svg {
+    width: 30px;
+    height: 30px;
+    margin-top: 15%;
+  }
+  
+  .container-footer .box-svg svg {
+    padding: 3px;
+  }
+}
+
+@media(max-width: 560px) {
+  .container-image-robot {
+    width: 90%;
+  }
+
+  .image-robot {
+    width: 48.6rem;
+  } 
+
 }
 
