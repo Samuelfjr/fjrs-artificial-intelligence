@@ -73,6 +73,7 @@ header {
 
 .nav-links a:hover {
   color: var(--primary-text-color);
+  transition: 0.3s;
 }
 
 .nav-links a:hover:after {
@@ -152,6 +153,16 @@ b {
 
 #container-schedule {
   width: 100%;
+}
+
+.error {
+  font-size: 2rem;
+  background: red;
+  color: var(--primary-text-color);
+  padding: 5px;
+  margin: 5px;
+
+  width: 42%;
 }
 
 .container .form {
@@ -388,9 +399,9 @@ b {
   width: 100%;
   display: flex;
   justify-content: center;
-
+  align-items: center;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1.5rem;
 
   margin: 5rem auto;
 }
@@ -399,6 +410,11 @@ b {
   width: 40rem; 
   height: 45rem;
   background: #1a3262;
+}
+
+
+.timeline img {
+  width: 100%;
 }
 
 .container-timeline .timeline h3 {
@@ -1114,6 +1130,11 @@ footer {
 }
 
 @media(max-width: 560px) {
+
+  .container .title-top {
+    width: 90%;
+  }
+
   .container-image-robot {
     width: 90%;
   }
