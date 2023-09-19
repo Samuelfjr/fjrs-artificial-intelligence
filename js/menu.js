@@ -5,6 +5,14 @@ function toggleMenu(event) {
 
     const nav = document.getElementById('nav');
     nav.classList.toggle("on");
+    const on = nav.classList.contains('on');
+    event.currentTarget.setAttribute('aria-expanded', on);
+    
+    if(on) { 
+        event.currentTarget.setAttribute('aria-label', 'Fechar Menu'); 
+    } else {
+        event.currentTarget.setAttribute('aria-label', 'Abrir Menu'); 
+    }
 }
 
 btnMobile.addEventListener('click', toggleMenu);
