@@ -7,7 +7,7 @@ function toggleMenu(event) {
     nav.classList.toggle("on");
     const on = nav.classList.contains('on');
     event.currentTarget.setAttribute('aria-expanded', on);
-    
+
     if(on) { 
         event.currentTarget.setAttribute('aria-label', 'Fechar Menu'); 
     } else {
