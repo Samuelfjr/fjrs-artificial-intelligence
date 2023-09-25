@@ -57,6 +57,7 @@ header {
   color: var(--secondary-color);
   text-decoration: none;
   font-size: 1.8rem;
+  line-height: 1.6;
   position: relative;
 }
 
@@ -396,7 +397,7 @@ b {
   text-align: center;
 }
 
-.container-title h3 {
+.container-title h4 {
   color: #f796e4;
   text-align: center;
   font-size: 2.4rem;
@@ -426,9 +427,9 @@ b {
   width: 100%;
 }
 
-.container-timeline .timeline h3 {
+.container-timeline .timeline h4 {
   color: var(--primary-text-color);
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 500;
 
   padding: 24px;
@@ -450,10 +451,11 @@ b {
 
 }
 
-.container-opacity h4 {
+.container-opacity p {
   color: var(--primary-text-color);
   text-align: center;
   font-size: 1.8rem;
+  line-height: 1.6;
   font-weight: 400;
   padding: 15px;
   margin: auto;
@@ -471,7 +473,7 @@ b {
 .container .about h1 {
   width: 70%;
   text-align: center;
-  font-size: 3.6rem;
+  font-size: 4.8rem;
   font-weight: 700;
   letter-spacing: -1.8px;
   padding: 15px;
@@ -542,16 +544,17 @@ b {
 }
 
 
-.part-section-about h2 {
+.part-section-about h4 {
   margin-bottom: 10px;
   color: var(--primary-text-color);
   font-size: 2.4rem;
   font-weight: 500;
 }
 
-.part-section-about article h3 {
+.part-section-about article p {
   color: #c4c4cc;
   font-size: 1.8rem;
+  line-height: 1.6;
   font-weight: 500;
 }
 
@@ -586,13 +589,14 @@ b {
   margin-top: 100px;
 }
 
-.faq-left h2 {
+.faq-left h3 {
   color: #852d86;
-  font-size: 2.6rem;
+  font-size: 3rem;
   font-weight: 500;
+  margin-bottom: 2rem;
 }
 
-.faq-left h1 {
+.faq-left h2 {
   width: 90%;
   color: var(--primary-text-color);
   font-size: 4rem;
@@ -634,7 +638,7 @@ b {
   font-size: 2rem;
 }
 
-.question h3 {
+.question h4 {
   display: flex;
   color: var(--primary-text-color);
   font-size: 2.4rem;
@@ -652,7 +656,7 @@ b {
 .answer p {
   padding-top: 1rem;
   line-height: 1.6;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: #c4c4cc;
 }
 
@@ -700,6 +704,7 @@ svg {
 #title-zap {
   color: var(--primary-text-color);
   font-size: 1.8rem;
+  line-height: 1.6;
   font-weight: 500;
 }
 
@@ -751,7 +756,7 @@ footer {
   width: 80%;
 }
 
-.container-footer h2 {
+#contact {
   color: var(--primary-text-color);
   text-align: center;
   font-size: 2rem;
