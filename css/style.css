@@ -10,9 +10,12 @@
   --secondary-color: #bfbfbf;
   --tertiary-text-color: #efefef;
   --highlighted-color: #852d86;
+  --highlighted-color-seven: #FEBBFF;
   --button-color: #efc740;
   --button-text-color: #433b0d;
-  --form-background-color: rgba(43, 79, 136, 0.6);
+  --form-background-color: rgba(43, 79, 136, 0.6); 
+  --background-section-faq: rgba(11, 7, 38, 0.8);
+  --background-footer: #202024;
 }
 
 html {
@@ -306,7 +309,8 @@ b {
 }
 
 .caption-section {
-  color: #f796e4;
+  /* color: #f796e4; */
+  color: var(--highlighted-color-seven);
   font-size: 2.4rem;
   font-weight: 500;
   letter-spacing: 3.6px;
@@ -506,7 +510,7 @@ b {
 .text-about {
   width: 100%;
   margin: 0 auto;
-  color: #c4c4cc;
+  color: var(--secondary-color);
   text-align: center;
   font-size: 2.2rem;
   font-weight: 500;
@@ -552,7 +556,7 @@ b {
 }
 
 .part-section-about article p {
-  color: #c4c4cc;
+  color: var(--secondary-color);
   font-size: 1.8rem;
   line-height: 1.6;
   font-weight: 500;
@@ -574,7 +578,7 @@ b {
   width: 100%;
   height: 100%;
   margin-top: 140px;
-  background: rgba(11, 7, 38, 0.8);
+  background: var(--background-section-faq);
 }
 
 .box-faq {
@@ -690,7 +694,7 @@ svg {
   padding: 34px;
 
   border-radius: 8px;
-  background: #202024;
+  background: var(--background-footer);
   margin-top: 60px;
   margin-bottom: 140px;
 }
@@ -742,7 +746,7 @@ svg {
 footer {
   width: 100%; 
   /* max-width: 1342px; */
-  background: #202024;
+  background: var(--background-footer);
 }
 
 .container-footer {
