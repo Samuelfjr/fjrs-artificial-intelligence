@@ -12,7 +12,6 @@
       width: 80%;
     }
   
-  
     .container form .form-field,
     .button-register {
       width: 41.2rem;
@@ -59,10 +58,9 @@
       width: 100%;
     }
   
-  .container-footer {
-    width: 80%;
-  }
-  
+    .container-footer {
+     width: 80%;
+    }
   }
            
   @media(max-width: 1135px) {
@@ -144,9 +142,6 @@
     
   }
        
-  
-  
-  
   @media(max-width: 768px) {
     html {
       font-size: 40%;
@@ -231,14 +226,9 @@
       overflow-y: auto;
     }
   
-  
-  
-  
     .main-content article p {
       padding: 12px;
     }
-  
-    
   
     .box-about {
       width: 100%;
@@ -247,9 +237,7 @@
       justify-content: space-between;
       column-gap: 5%;
     }
-    
-  
-    
+       
     .box-faq {
       flex-direction: column;
     }
@@ -316,8 +304,7 @@
     .container-opacity {
       width: 35rem;  
     }
-  
-  
+
     .box-about {
       width: 100%;
       display: flex;
@@ -328,7 +315,6 @@
   
       gap: 2.5rem;
     }
-  
   
     .text-about {
       width: 80%;
@@ -348,7 +334,6 @@
       width: 60%;
       height: auto;
       padding: 18px;
-  
       margin: 0 auto;
     }
 
@@ -381,7 +366,6 @@
     .image-robot {
       width: 48.6rem;
     } 
-  
   }
 
   @media(max-width: 377px) {
